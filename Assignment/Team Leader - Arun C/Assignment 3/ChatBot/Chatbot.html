@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miracle Hospital</title>
+        <link rel="stylesheet" href="./CSS.css">
+        <style>
+           body {
+            background-image: url('Chat BG for CSS.jpeg');
+            background-size: cover;
+            text-align: center;
+            align-content: center;
+            } 
+            button,body{
+                background:linear-gradient(to left,#00ffff,#00bfff,#0080ff,#0040ff);
+                margin: auto;
+                text-align: center;
+                align-content: center;
+                height: 100px;
+                font-size:large;
+                font-weight: bold;
+                font-family: Bodoni Mt;
+              }
+        </style>
+    </head>
+    <body >
+        <h1 style="color:rgb(0, 0, 0);">Miracle Hospital</h1>
+        <div></div>
+        <button name="welcome"><a href="https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-deee1a30-e99b-4577-8e82-eb8bcf8f4ac3%3A%3A6d4e62e2-01ae-4cb8-8780-7deac36243a7&integrationID=318af44c-77b5-4f75-b5b7-e857c128e280&region=us-south&serviceInstanceID=deee1a30-e99b-4577-8e82-eb8bcf8f4ac3"</a>Click here</button>
+        <!-- Embed-->
+        <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "318af44c-77b5-4f75-b5b7-e857c128e280", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "deee1a30-e99b-4577-8e82-eb8bcf8f4ac3", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+</html>
