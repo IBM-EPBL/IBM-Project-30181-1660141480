@@ -1,0 +1,112 @@
+.apply-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.apply-form {
+  width: 200px;
+  height: 100px;
+}
+.apply-navlink {
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .apply-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    background-size: cover;
+    background-image: url("public/playground_assets/applybg-1500w.jpeg");
+  }
+  .apply-form {
+    top: 108px;
+    right: 233px;
+    width: 1092px;
+    height: 691px;
+    position: absolute;
+    background-color: rgba(3, 1, 12, 0.76);
+  }
+  .apply-text {
+    top: 54px;
+    left: 346px;
+    color: #ffffff;
+    width: auto;
+    position: absolute;
+    font-weight: bold;
+  }
+  .apply-textinput {
+    top: 46px;
+    left: 427px;
+    width: auto;
+    position: absolute;
+  }
+  .apply-textinput1 {
+    top: 118px;
+    left: 431px;
+    width: auto;
+    position: absolute;
+  }
+  .apply-textinput2 {
+    top: 184px;
+    left: 434px;
+    width: auto;
+    position: absolute;
+  }
+  .apply-select {
+    top: 263px;
+    left: 442px;
+    width: auto;
+    position: absolute;
+  }
+  .apply-textarea {
+    top: 431px;
+    left: 449px;
+    width: auto;
+    position: absolute;
+  }
+  .apply-text1 {
+    top: 129px;
+    left: 370px;
+    color: #ffffff;
+    width: auto;
+    position: absolute;
+    font-weight: bold;
+  }
+  .apply-text2 {
+    top: 189px;
+    left: 324px;
+    color: #ffffff;
+    width: auto;
+    position: absolute;
+    font-weight: bold;
+  }
+  .apply-text3 {
+    top: 268px;
+    left: 381px;
+    color: #ffffff;
+    width: auto;
+    position: absolute;
+    font-weight: bold;
+  }
+  .apply-text4 {
+    top: 399px;
+    left: 323px;
+    color: #ffffff;
+    width: auto;
+    position: absolute;
+    font-weight: 700;
+  }
+  .apply-button {
+    top: 537px;
+    left: 563px;
+    position: absolute;
+  }
+  .apply-navlink {
+    top: 538px;
+    left: 454px;
+    position: absolute;
+  }
+}
