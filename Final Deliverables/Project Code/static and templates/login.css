@@ -1,0 +1,131 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.login-form {
+  width: 200px;
+  height: 100px;
+}
+.login-link {
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .login-container {
+    background-size: cover;
+    background-image: url("public/playground_assets/login%20page-1500w.jpeg");
+  }
+  .login-text {
+    top: 69px;
+    right: 184px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 25px;
+    border-color: var(--dl-color-gray-black);
+    border-style: hidden;
+    border-width: 1px;
+  }
+  .login-text01 {
+    color: #2943c7;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .login-text02 {
+    font-size: 25px;
+  }
+  .login-text03 {
+    font-size: 25px;
+  }
+  .login-text04 {
+    font-size: 25px;
+  }
+  .login-text06 {
+    font-size: 25px;
+  }
+  .login-text07 {
+    font-size: 25px;
+  }
+  .login-text09 {
+    font-size: 25px;
+  }
+  .login-text10 {
+    font-size: 25px;
+  }
+  .login-navlink {
+    color: #001fff;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  .login-text11 {
+    font-size: 25px;
+  }
+  .login-form {
+    top: 363px;
+    right: 26px;
+    width: 949px;
+    height: 472px;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 3px;
+    background-color: #ffffff;
+  }
+  .login-text12 {
+    top: 18px;
+    left: 33px;
+    color: var(--dl-color-primary-100);
+    position: absolute;
+    padding-bottom: var(--dl-space-space-twounits);
+    background-color: inherit;
+  }
+  .login-textinput {
+    top: 87px;
+    left: 33px;
+    position: absolute;
+  }
+  .login-text13 {
+    top: 123px;
+    left: 33px;
+    color: var(--dl-color-primary-100);
+    position: absolute;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: 0px;
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .login-textinput1 {
+    top: 224px;
+    left: 33px;
+    position: absolute;
+    padding-right: 1rem;
+  }
+  .login-link {
+    top: 296px;
+    left: 222px;
+    position: absolute;
+  }
+  .login-button {
+    top: 359px;
+    left: 83px;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-width: 3px;
+    border-radius: var(--dl-radius-radius-round);
+    background-color: #4473bf;
+  }
+  .login-checkbox {
+    top: 299px;
+    left: 34px;
+    position: absolute;
+  }
+  .login-text14 {
+    top: 296px;
+    left: 67px;
+    position: absolute;
+  }
+}
