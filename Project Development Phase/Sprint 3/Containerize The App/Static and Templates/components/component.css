@@ -1,0 +1,34 @@
+.component-container {
+  position: relative;
+}
+
+
+
+@media(max-width: 1600px) {
+  .component-text {
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: #5164f7;
+  }
+  .component-textinput {
+    left: 86px;
+    bottom: -49px;
+    position: absolute;
+  }
+  .component-root-class-name {
+    top: 55px;
+    left: 48px;
+    position: absolute;
+  }
+  .component-root-class-name1 {
+    top: 306px;
+    left: 52px;
+    position: absolute;
+  }
+  .component-root-class-name2 {
+    top: 178px;
+    left: 52px;
+    position: absolute;
+  }
+}
