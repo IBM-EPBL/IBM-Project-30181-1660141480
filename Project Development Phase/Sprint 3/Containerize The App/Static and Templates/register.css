@@ -1,0 +1,101 @@
+.app-component-container {
+  position: relative;
+}
+
+
+
+@media(max-width: 1600px) {
+  .app-component-text {
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: #5164f7;
+  }
+  .app-component-textinput {
+    left: 86px;
+    bottom: -49px;
+    position: absolute;
+  }
+  .app-component-root-class-name {
+    top: 55px;
+    left: 48px;
+    position: absolute;
+  }
+  .app-component-root-class-name1 {
+    top: 306px;
+    left: 52px;
+    position: absolute;
+  }
+  .app-component-root-class-name2 {
+    top: 178px;
+    left: 52px;
+    position: absolute;
+  }
+}
+
+.register-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.register-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.register-form {
+  width: 200px;
+  height: 100px;
+}
+@media(max-width: 1600px) {
+  .register-container {
+    background-size: cover;
+    background-image: url("public/playground_assets/registerbg-1500w.jpeg");
+  }
+  .register-container1 {
+    position: relative;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .register-text {
+    top: 26px;
+    left: 658px;
+    color: #f9f4f4;
+    width: 330px;
+    height: 44px;
+    margin: auto;
+    position: absolute;
+  }
+  .register-text1 {
+    top: 699px;
+    left: 585px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .register-navlink {
+    color: #120de0;
+    text-decoration: underline;
+  }
+  .register-form {
+    top: 160px;
+    left: 546px;
+    width: 864px;
+    height: 542px;
+    position: absolute;
+  }
+  .register-button {
+    left: 185px;
+    width: var(--dl-size-size-large);
+    bottom: 62px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+  }
+}
